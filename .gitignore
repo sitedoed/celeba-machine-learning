@@ -1,0 +1,169 @@
+# ============================================
+# AMBIENTE VIRTUAL E DEPENDÊNCIAS PYTHON
+# ============================================
+sin5016/
+venv/
+env/
+.venv/
+ENV/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.pdm.toml
+
+# ============================================
+# DADOS E IMAGENS (NÃO VERSIONAR - GRANDES)
+# ============================================
+images/
+images/original_images/
+images/optimized_images/
+images/real_balanced_dataset/
+images/simple_dataset/
+images/*.jpg
+images/*.png
+images/*.jpeg
+images/*.bmp
+
+# Características extraídas (HOG/LBP features - podem ser grandes)
+dados/features/
+!dados/features/.gitkeep  # Mantém pasta vazia
+dados/*.npy
+dados/*.npz
+dados/*.h5
+dados/*.hdf5
+
+# ============================================
+# MODELOS E CHECKPOINTS (NÃO VERSIONAR)
+# ============================================
+experiments/
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.model
+*.dat
+!Execucao/**/*.dat  # EXCEÇÃO: Os .dat obrigatórios do trabalho
+
+# ============================================
+# ARQUIVOS DE EXECUÇÃO (serão gerados)
+# ============================================
+Execucao/**/error.txt
+Execucao/**/config.txt
+Execucao/**/*.log
+Execucao/**/logs/
+*.log
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# ============================================
+# NOTEBOOKS E IDE
+# ============================================
+.ipynb_checkpoints/
+.jupyter/
+*.ipynb
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# SISTEMA OPERACIONAL
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# BACKUPS E ARQUIVOS TEMPORÁRIOS/ANTIGOS
+# ============================================
+*.bak
+*.backup
+*.old
+OLD/
+temp/
+tmp/
+scratch/
+
+# ============================================
+# RELATÓRIOS E SAÍDAS (exceto o obrigatório)
+# ============================================
+Relatorio/assets/
+Relatorio/*.png
+Relatorio/*.jpg
+Relatorio/*.jpeg
+Relatorio/draft*
+Relatorio/temp*
+!Relatorio/relatorio.pdf  # EXCEÇÃO: Mantém apenas o PDF final
+
+# ============================================
+# CONFIGURAÇÕES LOCAIS/SENSÍVEIS
+# ============================================
+config_local.py
+secrets.py
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+*.crt
+credentials.json
+token.json
+
+# ============================================
+# OUTPUTS DE NOTEBOOKS/TESTES
+# ============================================
+output/
+results/  # Exceto se forem resultados finais
+notebooks/output/
+notebooks/results/
+
+# ============================================
+# LAÇOS DE MÍDIA DO WINDOWS
+# ============================================
+[Tt]humbs.db
+
+# ============================================
+# DOCKER
+# ============================================
+docker-compose.override.yml
+GITIGNORE
