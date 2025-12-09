@@ -1,10 +1,11 @@
-🎭 Sistema de Reconhecimento Facial - CelebA
+# Sistema de Reconhecimento Facial - CelebA
 
 Trabalho de SIN5016 - Classificação de Imagens com Descritores HOG e LBP
-📋 Descrição do Projeto
+## Descrição do Projeto
 
 Implementação de um sistema de reconhecimento facial utilizando a base de dados CelebA, empregando dois classificadores (MLP e SVM) com extração de características via descritores HOG e LBP.
-🎯 Objetivos
+
+## Objetivos
 
     Implementar 2 classificadores para tarefa de reconhecimento facial
 
@@ -16,7 +17,7 @@ Implementação de um sistema de reconhecimento facial utilizando a base de dado
 
     Gerar modelos comparativos para análise de desempenho
 
-🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 text
 
 .
@@ -31,7 +32,7 @@ text
 ├── setup.sh                   # Script de configuração
 └── README.md                  # Este arquivo
 
-📊 Base de Dados
+### Base de Dados
 
 CelebFaces Attributes (CelebA)
 
@@ -43,7 +44,7 @@ CelebFaces Attributes (CelebA)
 
     Imagens de 178×218 pixels
 
-🛠️ Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
     Python 3.8+
 
@@ -57,7 +58,7 @@ CelebFaces Attributes (CelebA)
 
     pandas/numpy: Manipulação de dados
 
-⚙️ Especificações Técnicas
+### Especificações Técnicas
 Classificadores Implementados
 
     MLP (Multilayer Perceptron)
@@ -100,13 +101,13 @@ Metodologia de Avaliação
 
     Métricas: Acurácia, Precisão, Recall, F1-Score
 
-🚀 Como Executar
+### Como Executar
 1. Configuração do Ambiente
 bash
 
-# Clonar repositório
+### Clonar repositório
 git clone <repositorio>
-cd projeto-reconhecimento-facial
+cd celeba-machine-learning
 
 # Ativar ambiente virtual
 source sin5016/bin/activate  # Linux/Mac
